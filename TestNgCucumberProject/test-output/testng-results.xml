@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-11T13:39:10 IST" name="Default suite" finished-at="2021-09-11T13:42:07 IST" duration-ms="176488">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@496bc455]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-09-11T13:39:10 IST" name="Default test" finished-at="2021-09-11T13:42:07 IST" duration-ms="176488">
+      <class name="Runner.TestRunner">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:39:10 IST" name="beforeSuite" finished-at="2021-09-11T13:39:10 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:39:10 IST" name="beforeTest" finished-at="2021-09-11T13:39:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:39:10 IST" name="setUpClass" finished-at="2021-09-11T13:39:11 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:39:11 IST" name="beforeClass" finished-at="2021-09-11T13:39:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:39:11 IST" name="beforeMethod" finished-at="2021-09-11T13:39:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:39:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-11T13:39:46 IST" duration-ms="35512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create New Opportunity"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Opportunity is created, edited and deleted]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:39:46 IST" name="beforeMethod" finished-at="2021-09-11T13:39:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:39:46 IST" name="afterMethod" finished-at="2021-09-11T13:39:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:39:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-11T13:40:11 IST" duration-ms="24873" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Edit Opportunity"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Opportunity is created, edited and deleted]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=93.0.4577.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-LG2N16NC', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\villu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2112d66114f4a47abaceac7e85fb68b8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=93.0.4577.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'LAPTOP-LG2N16NC', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\villu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51292}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2112d66114f4a47abaceac7e85fb68b8
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:181)
+at pages.SalesHomePage.editOpportunityMessage(SalesHomePage.java:104)
+at testCases.OpportunityTest.opportunity_is_edited_successfully(OpportunityTest.java:96)
+at ✽.Opportunity is Edited Successfully(file:///C:/Users/villu/TestLeaf/TestNgCucumberProject/src/test/java/Features/Opportunity.feature:27)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:40:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-11T13:40:48 IST" duration-ms="36450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete Opportunity"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Opportunity is created, edited and deleted]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:40:11 IST" name="afterMethod" finished-at="2021-09-11T13:40:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:40:11 IST" name="beforeMethod" finished-at="2021-09-11T13:40:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:40:48 IST" name="afterMethod" finished-at="2021-09-11T13:40:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:40:48 IST" name="beforeMethod" finished-at="2021-09-11T13:40:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:40:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-11T13:41:19 IST" duration-ms="31385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create Opportunity without mandatoryfields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Opportunity is created, edited and deleted]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:41:19 IST" name="afterMethod" finished-at="2021-09-11T13:41:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:41:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-11T13:42:05 IST" duration-ms="45494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["OpportunitiesSortByAscendingTest"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Opportunity is created, edited and deleted]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:41:19 IST" name="beforeMethod" finished-at="2021-09-11T13:41:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:42:05 IST" name="afterMethod" finished-at="2021-09-11T13:42:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:42:05 IST" name="afterClass" finished-at="2021-09-11T13:42:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:42:05 IST" name="tearDownClass" finished-at="2021-09-11T13:42:07 IST" duration-ms="2248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:42:07 IST" name="afterTest" finished-at="2021-09-11T13:42:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Runner.TestRunner@496bc455]" started-at="2021-09-11T13:42:07 IST" name="afterSuite" finished-at="2021-09-11T13:42:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
